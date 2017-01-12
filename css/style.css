@@ -1,0 +1,109 @@
+#search {
+	left: 23%;
+	top: 40%;
+/*	margin-left: -10%; */
+	position: absolute;
+/*	display: flex; */
+} 
+
+#logo{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 70px;
+	top: 23%;
+	position: absolute; 
+/*	display: flex; */
+	text-align: center;
+	right: 27%;
+}
+
+#buttons{
+	display: flex; 
+/*	justify-content: center; */
+/*	margin-top: 23%; */
+/*	text-align: center; */
+	left: 37%;
+	top: 50%;
+	position: absolute;
+}
+
+#searchButton{
+	padding-right: 15%;
+}
+
+#logoBlue{
+	color: #4885ed;
+}
+
+#logoGreen{
+	color: #3cba54;
+}
+
+#logoRed{
+	color: #db3236;
+}
+
+#logoYellow{
+	color: #f4c20d;
+}
+
+#Credits{
+	text-align: center;
+	top: 65%;
+	right: 37%;
+	padding-right: 7%;
+	padding-down: 5%;
+	position: absolute;
+}
+
+.btn{
+	border-radius: 0;
+	color: gray;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #00b3db;
+    border-color: #285e8e; /*set the color you want here*/
+}
+
+.searchResultBox{
+	border: 2px;
+	height: auto;
+	margin: 10px 12% 0 12%;
+}
+
+.title{
+	font-size: 13pt;
+/*	color: #1a0dab; */
+	color: black;
+	font: Arial Regular;
+}
+
+.title:hover{
+	text-decoration: underline;
+}
+
+.extract{
+	font-size: 11pt;
+	font: Arial Regular;
+	color: #545454;
+}
+
+.url{
+	font-size: 11pt;
+/*	color: #006621; */
+	font: Arial Regular;
+	color: grey;
+}
+
+ #Credits1{
+	width: 100%;
+/*	height: 30px; */
+	position: absolute;
+/*	bottom: 30px; */
+	left: 0px;
+	right: 0px;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+} 
